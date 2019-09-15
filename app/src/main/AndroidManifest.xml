@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jag.chintu.shiva.forum"
+    platformBuildVersionCode="24"
+    platformBuildVersionName="7.0"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="jag.chintu.shiva.forum.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="jag.chintu.shiva.forum.permission.C2D_MESSAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sf"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="jag.chintu.shiva.forum.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jag.chintu.shiva.forum.Signin" />
+        <activity android:name="jag.chintu.shiva.forum.Signup" />
+        <activity android:name="jag.chintu.shiva.forum.Branch" />
+        <activity android:name="jag.chintu.shiva.forum.Cse3sub" />
+        <activity android:name="jag.chintu.shiva.forum.Os" />
+        <activity android:name="jag.chintu.shiva.forum.Cse2sub" />
+        <activity android:name="jag.chintu.shiva.forum.Cseyears" />
+        <activity android:name="jag.chintu.shiva.forum.Toc" />
+        <activity android:name="jag.chintu.shiva.forum.Cse4sub" />
+        <activity android:name="jag.chintu.shiva.forum.Cse1sub" />
+        <activity android:name="jag.chintu.shiva.forum.Cn" />
+        <activity android:name="jag.chintu.shiva.forum.Or" />
+        <activity android:name="jag.chintu.shiva.forum.Ooad" />
+        <activity android:name="jag.chintu.shiva.forum.Cp" />
+        <activity android:name="jag.chintu.shiva.forum.Ep1" />
+        <activity android:name="jag.chintu.shiva.forum.Ec1" />
+        <activity android:name="jag.chintu.shiva.forum.Ep2" />
+        <activity android:name="jag.chintu.shiva.forum.Ec2" />
+        <activity android:name="jag.chintu.shiva.forum.Dsc" />
+        <activity android:name="jag.chintu.shiva.forum.Oopj" />
+        <activity android:name="jag.chintu.shiva.forum.Mfcs" />
+        <activity android:name="jag.chintu.shiva.forum.Stld" />
+        <activity android:name="jag.chintu.shiva.forum.Edc" />
+        <activity android:name="jag.chintu.shiva.forum.Bee" />
+        <activity android:name="jag.chintu.shiva.forum.Mefa" />
+        <activity android:name="jag.chintu.shiva.forum.Dc" />
+        <activity android:name="jag.chintu.shiva.forum.Compi" />
+        <activity android:name="jag.chintu.shiva.forum.Daa" />
+        <activity android:name="jag.chintu.shiva.forum.Dbms" />
+        <activity android:name="jag.chintu.shiva.forum.St" />
+        <activity android:name="jag.chintu.shiva.forum.Ms" />
+        <activity android:name="jag.chintu.shiva.forum.Mc" />
+        <activity android:name="jag.chintu.shiva.forum.Dwdm" />
+        <activity android:name="jag.chintu.shiva.forum.Cvipr" />
+        <activity android:name="jag.chintu.shiva.forum.Aca" />
+        <activity android:name="jag.chintu.shiva.forum.Sl" />
+        <activity android:name="jag.chintu.shiva.forum.Bme" />
+        <activity android:name="jag.chintu.shiva.forum.Se" />
+        <activity android:name="jag.chintu.shiva.forum.Wt" />
+        <activity android:name="jag.chintu.shiva.forum.Cg" />
+        <activity android:name="jag.chintu.shiva.forum.Cd" />
+        <activity android:name="jag.chintu.shiva.forum.Is" />
+        <activity android:name="jag.chintu.shiva.forum.Ent" />
+        <activity android:name="jag.chintu.shiva.forum.Cc" />
+        <activity android:name="jag.chintu.shiva.forum.Es" />
+        <activity android:name="jag.chintu.shiva.forum.PS" />
+        <activity android:name="jag.chintu.shiva.forum.Na" />
+        <activity android:name="jag.chintu.shiva.forum.Spm" />
+        <activity android:name="jag.chintu.shiva.forum.Co" />
+        <activity android:name="jag.chintu.shiva.forum.Psd" />
+        <activity android:name="jag.chintu.shiva.forum.Ldic" />
+        <activity android:name="jag.chintu.shiva.forum.Ps3" />
+        <activity android:name="jag.chintu.shiva.forum.Uee" />
+        <activity android:name="jag.chintu.shiva.forum.Gate" />
+        <activity android:name="jag.chintu.shiva.forum.Gatea" />
+        <activity android:name="jag.chintu.shiva.forum.Gatec" />
+        <activity android:name="jag.chintu.shiva.forum.Gatemain" />
+        <activity android:name="jag.chintu.shiva.forum.Mi" />
+        <activity android:name="jag.chintu.shiva.forum.Boirm" />
+        <activity android:name="jag.chintu.shiva.forum.Eceyears" />
+        <activity android:name="jag.chintu.shiva.forum.Ece2sub" />
+        <activity android:name="jag.chintu.shiva.forum.Ece3sub" />
+        <activity android:name="jag.chintu.shiva.forum.Ece4sub" />
+        <activity android:name="jag.chintu.shiva.forum.Eeeyears" />
+        <activity android:name="jag.chintu.shiva.forum.Eee2sub" />
+        <activity android:name="jag.chintu.shiva.forum.Eee3sub" />
+        <activity android:name="jag.chintu.shiva.forum.Eee4sub" />
+        <activity android:name="jag.chintu.shiva.forum.Ecmyears" />
+        <activity android:name="jag.chintu.shiva.forum.Ecm2sub" />
+        <activity android:name="jag.chintu.shiva.forum.Ecm3sub" />
+        <activity android:name="jag.chintu.shiva.forum.Ecm4sub" />
+        <activity android:name="jag.chintu.shiva.forum.Ityears" />
+        <activity android:name="jag.chintu.shiva.forum.It2sub" />
+        <activity android:name="jag.chintu.shiva.forum.It3sub" />
+        <activity android:name="jag.chintu.shiva.forum.It4sub" />
+        <activity android:name="jag.chintu.shiva.forum.Mechyears" />
+        <activity android:name="jag.chintu.shiva.forum.Mech2sub" />
+        <activity android:name="jag.chintu.shiva.forum.Mech3sub" />
+        <activity android:name="jag.chintu.shiva.forum.Mech4sub" />
+        <activity
+            android:name="jag.chintu.shiva.forum.Frm"
+            android:label="@string/title_activity_frm"
+            android:theme="@style/AppTheme" />
+        <activity android:name="jag.chintu.shiva.forum.Frmpost" />
+        <activity android:name="jag.chintu.shiva.forum.Aboutus" />
+        <activity android:name="jag.chintu.shiva.forum.Sap" />
+        <activity android:name="jag.chintu.shiva.forum.Gme" />
+        <activity android:name="jag.chintu.shiva.forum.Mpmc" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="jag.chintu.shiva.forum" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="jag.chintu.shiva.forum.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

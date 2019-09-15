@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffc5cae9" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/shape_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" app:srcCompat="@drawable/slogo5" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/pname" android:background="@drawable/input_outline" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Post Title" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <EditText android:id="@id/ppost" android:background="@drawable/input_outline" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:hint="Post Descripotion" android:layout_below="@id/pname" android:layout_centerHorizontal="true" />
+    <Button android:textColor="#ffffffff" android:id="@id/post" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Submit Post" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

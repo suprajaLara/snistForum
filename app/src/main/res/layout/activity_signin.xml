@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/signinnew" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/back" android:layout_width="21.0dip" android:layout_height="25.0dip" android:layout_margin="16.0dip" app:srcCompat="@drawable/back" />
+                <TextView android:textSize="22.0dip" android:textColor="#ffffffff" android:id="@id/topsignin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_marginLeft="16.0dip" android:text="Sign in" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/signin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <EditText android:textSize="16.0dip" android:textColor="@color/signintext" android:textColorHint="@color/signintext" android:id="@id/username" android:background="#00000000" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="65.0dip" android:hint="Email" android:maxLength="40" android:drawableLeft="@drawable/mail" android:drawablePadding="35.0dip" android:inputType="text" />
+                <View android:background="@color/signintext" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" />
+                <EditText android:textSize="16.0dip" android:textColor="@color/signintext" android:textColorHint="@color/signintext" android:id="@id/password" android:background="#00000000" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:hint="Password" android:maxLength="20" android:drawableLeft="@drawable/password" android:drawablePadding="38.0dip" android:inputType="textPassword" />
+                <View android:background="@color/signintext" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="63.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:background="@color/signintext" android:layout_width="1.0dip" android:layout_height="120.0dip" android:layout_marginLeft="110.0dip" android:layout_marginBottom="105.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="20.0dip" android:textColor="#ff3b4a45" android:gravity="center" android:id="@id/signin" android:background="@drawable/rect" android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sign in" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>
